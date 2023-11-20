@@ -60,7 +60,7 @@ void setup()
   //attachInterrupt(digitalPinToInterrupt(PIN_ROTARY_CLK), process_rotary, CHANGE);
 
   g_display.begin();
-  g_display.setContrast(60);
+  g_display.setContrast(62);
   g_display.display();
   delay(500);
   
